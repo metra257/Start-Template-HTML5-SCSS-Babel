@@ -1,0 +1,39 @@
+{
+  "name": "start-template-html5",
+  "version": "1.0.0",
+  "description": "Start Template HTML5 - kosArt",
+  "main": "index.js",
+  "babel": {
+    "presets": [
+      "latest"
+    ]
+  },
+  "scripts": {
+    "gulp": "npm run web-dev"
+  },
+  "author": "kosArt",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "babel-preset-latest": "^6.24.1",
+    "browser-sync": "^2.26.3",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-delete-lines": "0.0.7",
+    "gulp-inline-replace": "0.0.1",
+    "gulp-notify": "^3.2.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-tinypng": "^1.0.2",
+    "gulp-tinypng-unlimited": "^1.0.3",
+    "gulp-uglify": "^3.0.1",
+    "gulp.spritesmith": "^6.9.0",
+    "sass": "^1.15.1"
+  },
+  "dependencies": {}
+}

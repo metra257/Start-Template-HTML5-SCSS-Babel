@@ -1,0 +1,79 @@
+@import "vars";
+
+
+/*==========  Desktop First  ==========*/
+
+// ≥1200px
+@media only screen and (max-width : 1200px) {
+
+}
+
+// ≥992px
+@media only screen and (max-width : 992px) {
+
+}
+
+// ≥768px
+@media only screen and (max-width : 768px) {
+
+}
+
+// ≥576px
+@media only screen and (max-width : 576px) {
+
+}
+
+// ≥480px
+@media only screen and (max-width : 480px) {
+
+}
+
+
+// ≥320px
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*========== Crossbrowser media only for iPhone 4/4S  ==========*/
+
+// Only iPhone 4/4S (portrait mode)
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 2/3) and (orientation:portrait) {
+
+}
+// Only iPhone 4/4S (landscape mode)
+@media only screen and (min-device-width: 320px)  and (max-device-width: 480px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 2/3) and (orientation:landscape) {
+
+}
+
+/*==========  Mobile First  ==========*/
+
+// ≤320px
+@media only screen and (min-width : 320px) {
+
+}
+
+// ≤480px
+@media only screen and (min-width : 480px) {
+
+}
+
+// ≤576px
+@media only screen and (min-width : 576px) {
+
+}
+
+// ≤768px
+@media only screen and (min-width : 768px) {
+
+}
+
+// ≤992px
+@media only screen and (min-width : 992px) {
+
+}
+
+// ≤1200px
+@media only screen and (min-width : 1200px) {
+
+}
